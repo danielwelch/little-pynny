@@ -21,7 +21,7 @@ def _write_json(path, data):
 
 def _method_from_endpoint(path):
     return {
-        "description": path["description"],
+        "description": "",
         "produces": ["application/json", "text/html", "text/xml"],
         "responses": {
             "200": {},
@@ -52,7 +52,7 @@ def _convert_path(path):
         "get": _method_from_endpoint(path),
         "parameters": _params_from_endpoint(path["params"]),
         "deprecated": not path["active"],
-        "summary": path["description"]
+        "summary": ""
     }
 
 
@@ -79,4 +79,3 @@ if __name__ == '__main__':
     err = _write_json(NEW_PATH, _swaggerify(old))
     if err is None:
         print("json has been swaggerified")
-
