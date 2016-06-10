@@ -61,7 +61,7 @@ def _swaggerify(old):
         "swagger": "2.0",
         "info": {
             "title": "NBA Stats API",
-            "description": None,
+            "description": "",
             "version": "version"  # fix this
         },
         "host": "stats.nba.com",
@@ -70,7 +70,7 @@ def _swaggerify(old):
             "/" + endpoint["endpoint"]: _convert_path(endpoint)
             for endpoint in old
         },
-        "externalDocs": None,  # eventually replace with some sort of documentation
+        # "externalDocs": None,  # eventually replace with some sort of documentation
     }
 
 
