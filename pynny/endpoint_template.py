@@ -25,7 +25,7 @@ class Client():
     {% for item in endpoints %}
     def {{ item.endpoint.lower() }}(
         self,{% for param in item.params %}
-        {{ param.lower() }},{% endfor %}
+        {% if param.required %}{{ param.lower() }},{% else %}{{ param.lower() }}=None,{% endif %}{% endfor %}
     ):
         """{{item.description}}."""
         params = { {% for param in item.params %}

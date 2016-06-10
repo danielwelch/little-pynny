@@ -1,1580 +1,4767 @@
 [
   {
-    "description": null,
     "params": [
-      "PointCap",
-      "WestPlayer1",
-      "WestPlayer2",
-      "WestPlayer3",
-      "WestPlayer4",
-      "WestPlayer5",
-      "EastPlayer1",
-      "EastPlayer2",
-      "EastPlayer3",
-      "EastPlayer4",
-      "EastPlayer5"
+      {
+        "name": "PointCap",
+        "required": false
+      },
+      {
+        "name": "WestPlayer1",
+        "required": true
+      },
+      {
+        "name": "WestPlayer2",
+        "required": true
+      },
+      {
+        "name": "WestPlayer3",
+        "required": true
+      },
+      {
+        "name": "WestPlayer4",
+        "required": true
+      },
+      {
+        "name": "WestPlayer5",
+        "required": true
+      },
+      {
+        "name": "EastPlayer1",
+        "required": true
+      },
+      {
+        "name": "EastPlayer2",
+        "required": true
+      },
+      {
+        "name": "EastPlayer3",
+        "required": true
+      },
+      {
+        "name": "EastPlayer4",
+        "required": true
+      },
+      {
+        "name": "EastPlayer5",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "allstarballotpredictor"
   },
   {
-    "description": null,
     "params": [
-      "GameID",
-      "StartPeriod",
-      "EndPeriod",
-      "StartRange",
-      "EndRange",
-      "RangeType"
+      {
+        "name": "GameID",
+        "required": false
+      },
+      {
+        "name": "StartPeriod",
+        "required": false
+      },
+      {
+        "name": "EndPeriod",
+        "required": false
+      },
+      {
+        "name": "StartRange",
+        "required": false
+      },
+      {
+        "name": "EndRange",
+        "required": false
+      },
+      {
+        "name": "RangeType",
+        "required": false
+      }
     ],
+    "description": null,
+    "active": false,
     "endpoint": "boxscore"
   },
   {
-    "description": null,
     "params": [
-      "GameID",
-      "StartPeriod",
-      "EndPeriod",
-      "StartRange",
-      "EndRange",
-      "RangeType"
+      {
+        "name": "GameID",
+        "required": false
+      },
+      {
+        "name": "StartPeriod",
+        "required": false
+      },
+      {
+        "name": "EndPeriod",
+        "required": false
+      },
+      {
+        "name": "StartRange",
+        "required": false
+      },
+      {
+        "name": "EndRange",
+        "required": false
+      },
+      {
+        "name": "RangeType",
+        "required": false
+      }
     ],
+    "description": null,
+    "active": false,
     "endpoint": "boxscoreadvanced"
   },
   {
-    "description": null,
     "params": [
-      "GameID",
-      "StartPeriod",
-      "EndPeriod",
-      "StartRange",
-      "EndRange",
-      "RangeType"
+      {
+        "name": "GameID",
+        "required": true
+      },
+      {
+        "name": "StartPeriod",
+        "required": true
+      },
+      {
+        "name": "EndPeriod",
+        "required": true
+      },
+      {
+        "name": "StartRange",
+        "required": true
+      },
+      {
+        "name": "EndRange",
+        "required": true
+      },
+      {
+        "name": "RangeType",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "boxscoreadvancedv2"
   },
   {
-    "description": null,
     "params": [
-      "GameID",
-      "StartPeriod",
-      "EndPeriod",
-      "StartRange",
-      "EndRange",
-      "RangeType"
+      {
+        "name": "GameID",
+        "required": false
+      },
+      {
+        "name": "StartPeriod",
+        "required": false
+      },
+      {
+        "name": "EndPeriod",
+        "required": false
+      },
+      {
+        "name": "StartRange",
+        "required": false
+      },
+      {
+        "name": "EndRange",
+        "required": false
+      },
+      {
+        "name": "RangeType",
+        "required": false
+      }
     ],
+    "description": null,
+    "active": false,
     "endpoint": "boxscorefourfactors"
   },
   {
-    "description": null,
     "params": [
-      "GameID",
-      "StartPeriod",
-      "EndPeriod",
-      "StartRange",
-      "EndRange",
-      "RangeType"
+      {
+        "name": "GameID",
+        "required": true
+      },
+      {
+        "name": "StartPeriod",
+        "required": true
+      },
+      {
+        "name": "EndPeriod",
+        "required": true
+      },
+      {
+        "name": "StartRange",
+        "required": true
+      },
+      {
+        "name": "EndRange",
+        "required": true
+      },
+      {
+        "name": "RangeType",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "boxscorefourfactorsv2"
   },
   {
-    "description": null,
     "params": [
-      "GameID",
-      "StartPeriod",
-      "EndPeriod",
-      "StartRange",
-      "EndRange",
-      "RangeType"
+      {
+        "name": "GameID",
+        "required": false
+      },
+      {
+        "name": "StartPeriod",
+        "required": false
+      },
+      {
+        "name": "EndPeriod",
+        "required": false
+      },
+      {
+        "name": "StartRange",
+        "required": false
+      },
+      {
+        "name": "EndRange",
+        "required": false
+      },
+      {
+        "name": "RangeType",
+        "required": false
+      }
     ],
+    "description": null,
+    "active": false,
     "endpoint": "boxscoremisc"
   },
   {
-    "description": null,
     "params": [
-      "GameID",
-      "StartPeriod",
-      "EndPeriod",
-      "StartRange",
-      "EndRange",
-      "RangeType"
+      {
+        "name": "GameID",
+        "required": true
+      },
+      {
+        "name": "StartPeriod",
+        "required": true
+      },
+      {
+        "name": "EndPeriod",
+        "required": true
+      },
+      {
+        "name": "StartRange",
+        "required": true
+      },
+      {
+        "name": "EndRange",
+        "required": true
+      },
+      {
+        "name": "RangeType",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "boxscoremiscv2"
   },
   {
-    "description": null,
     "params": [
-      "GameID"
+      {
+        "name": "GameID",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "boxscoreplayertrackv2"
   },
   {
-    "description": null,
     "params": [
-      "GameID",
-      "StartPeriod",
-      "EndPeriod",
-      "StartRange",
-      "EndRange",
-      "RangeType"
+      {
+        "name": "GameID",
+        "required": false
+      },
+      {
+        "name": "StartPeriod",
+        "required": false
+      },
+      {
+        "name": "EndPeriod",
+        "required": false
+      },
+      {
+        "name": "StartRange",
+        "required": false
+      },
+      {
+        "name": "EndRange",
+        "required": false
+      },
+      {
+        "name": "RangeType",
+        "required": false
+      }
     ],
+    "description": null,
+    "active": false,
     "endpoint": "boxscorescoring"
   },
   {
-    "description": null,
     "params": [
-      "GameID",
-      "StartPeriod",
-      "EndPeriod",
-      "StartRange",
-      "EndRange",
-      "RangeType"
+      {
+        "name": "GameID",
+        "required": true
+      },
+      {
+        "name": "StartPeriod",
+        "required": true
+      },
+      {
+        "name": "EndPeriod",
+        "required": true
+      },
+      {
+        "name": "StartRange",
+        "required": true
+      },
+      {
+        "name": "EndRange",
+        "required": true
+      },
+      {
+        "name": "RangeType",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "boxscorescoringv2"
   },
   {
-    "description": null,
     "params": [
-      "GameID"
+      {
+        "name": "GameID",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "boxscoresummaryv2"
   },
   {
-    "description": null,
     "params": [
-      "GameID",
-      "StartPeriod",
-      "EndPeriod",
-      "StartRange",
-      "EndRange",
-      "RangeType"
+      {
+        "name": "GameID",
+        "required": true
+      },
+      {
+        "name": "StartPeriod",
+        "required": true
+      },
+      {
+        "name": "EndPeriod",
+        "required": true
+      },
+      {
+        "name": "StartRange",
+        "required": true
+      },
+      {
+        "name": "EndRange",
+        "required": true
+      },
+      {
+        "name": "RangeType",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "boxscoretraditionalv2"
   },
   {
-    "description": null,
     "params": [
-      "GameID",
-      "StartPeriod",
-      "EndPeriod",
-      "StartRange",
-      "EndRange",
-      "RangeType"
+      {
+        "name": "GameID",
+        "required": false
+      },
+      {
+        "name": "StartPeriod",
+        "required": false
+      },
+      {
+        "name": "EndPeriod",
+        "required": false
+      },
+      {
+        "name": "StartRange",
+        "required": false
+      },
+      {
+        "name": "EndRange",
+        "required": false
+      },
+      {
+        "name": "RangeType",
+        "required": false
+      }
     ],
+    "description": null,
+    "active": false,
     "endpoint": "boxscoreusage"
   },
   {
-    "description": null,
     "params": [
-      "GameID",
-      "StartPeriod",
-      "EndPeriod",
-      "StartRange",
-      "EndRange",
-      "RangeType"
+      {
+        "name": "GameID",
+        "required": true
+      },
+      {
+        "name": "StartPeriod",
+        "required": true
+      },
+      {
+        "name": "EndPeriod",
+        "required": true
+      },
+      {
+        "name": "StartRange",
+        "required": true
+      },
+      {
+        "name": "EndRange",
+        "required": true
+      },
+      {
+        "name": "RangeType",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "boxscoreusagev2"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID"
+      {
+        "name": "LeagueID",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "commonTeamYears"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "Season",
-      "IsOnlyCurrentSeason"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "IsOnlyCurrentSeason",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "commonallplayers"
   },
   {
-    "description": null,
     "params": [
-      "PlayerID"
+      {
+        "name": "PlayerID",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "commonplayerinfo"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "Season"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "commonplayoffseries"
   },
   {
-    "description": null,
     "params": [
-      "Season",
-      "TeamID"
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "TeamID",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "commonteamroster"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "SeasonYear"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "SeasonYear",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "draftcombinedrillresults"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "SeasonYear"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "SeasonYear",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "draftcombinenonstationaryshooting"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "SeasonYear"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "SeasonYear",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "draftcombineplayeranthro"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "SeasonYear"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "SeasonYear",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "draftcombinespotshooting"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "SeasonYear"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "SeasonYear",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "draftcombinestats"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID"
+      {
+        "name": "LeagueID",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "drafthistory"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID"
+      {
+        "name": "LeagueID",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "franchisehistory"
   },
   {
-    "description": null,
     "params": [
-      "StatCategory",
-      "LeagueID",
-      "Season",
-      "SeasonType",
-      "PlayerOrTeam",
-      "Game",
-      "Scope",
-      "Player",
-      "Scope"
+      {
+        "name": "StatCategory",
+        "required": true
+      },
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "PlayerOrTeam",
+        "required": true
+      },
+      {
+        "name": "Game",
+        "required": false
+      },
+      {
+        "name": "Scope",
+        "required": false
+      },
+      {
+        "name": "Player",
+        "required": false
+      },
+      {
+        "name": "Scope",
+        "required": false
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "homepageleaders"
   },
   {
-    "description": null,
     "params": [
-      "StatType",
-      "LeagueID",
-      "Season",
-      "SeasonType",
-      "PlayerOrTeam",
-      "Game",
-      "Scope",
-      "Player",
-      "Scope"
+      {
+        "name": "StatType",
+        "required": true
+      },
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "PlayerOrTeam",
+        "required": true
+      },
+      {
+        "name": "Game",
+        "required": false
+      },
+      {
+        "name": "Scope",
+        "required": false
+      },
+      {
+        "name": "Player",
+        "required": false
+      },
+      {
+        "name": "Scope",
+        "required": false
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "homepagev2"
   },
   {
-    "description": null,
     "params": [
-      "Stat",
-      "LeagueID",
-      "Season",
-      "SeasonType",
-      "PlayerOrTeam",
-      "Game",
-      "Scope",
-      "Player",
-      "Scope"
+      {
+        "name": "Stat",
+        "required": true
+      },
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "PlayerOrTeam",
+        "required": true
+      },
+      {
+        "name": "Game",
+        "required": false
+      },
+      {
+        "name": "Scope",
+        "required": false
+      },
+      {
+        "name": "Player",
+        "required": false
+      },
+      {
+        "name": "Scope",
+        "required": false
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "leaderstiles"
   },
   {
-    "description": null,
     "params": [
-      "GroupQuantity",
-      "SeasonType",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "GroupQuantity",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "leaguedashlineups"
   },
   {
-    "description": null,
     "params": [
-      "PerMode",
-      "LeagueID",
-      "Season",
-      "SeasonType"
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "leaguedashplayerbiostats"
   },
   {
-    "description": null,
     "params": [
-      "ClutchTime",
-      "AheadBehind",
-      "PointDiff",
-      "GameScope",
-      "PlayerExperience",
-      "PlayerPosition",
-      "StarterBench",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "ClutchTime",
+        "required": true
+      },
+      {
+        "name": "AheadBehind",
+        "required": true
+      },
+      {
+        "name": "PointDiff",
+        "required": true
+      },
+      {
+        "name": "GameScope",
+        "required": true
+      },
+      {
+        "name": "PlayerExperience",
+        "required": true
+      },
+      {
+        "name": "PlayerPosition",
+        "required": true
+      },
+      {
+        "name": "StarterBench",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "leaguedashplayerclutch"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "PerMode",
-      "Season",
-      "SeasonType"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "leaguedashplayerptshot"
   },
   {
-    "description": null,
     "params": [
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames",
-      "DistanceRange",
-      "GameScope",
-      "PlayerExperience",
-      "PlayerPosition",
-      "StarterBench"
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      },
+      {
+        "name": "DistanceRange",
+        "required": true
+      },
+      {
+        "name": "GameScope",
+        "required": true
+      },
+      {
+        "name": "PlayerExperience",
+        "required": true
+      },
+      {
+        "name": "PlayerPosition",
+        "required": true
+      },
+      {
+        "name": "StarterBench",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "leaguedashplayershotlocations"
   },
   {
-    "description": null,
     "params": [
-      "GameScope",
-      "PlayerExperience",
-      "PlayerPosition",
-      "StarterBench",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "GameScope",
+        "required": true
+      },
+      {
+        "name": "PlayerExperience",
+        "required": true
+      },
+      {
+        "name": "PlayerPosition",
+        "required": true
+      },
+      {
+        "name": "StarterBench",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "leaguedashplayerstats"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "PerMode",
-      "Season",
-      "SeasonType",
-      "DefenseCategory"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "DefenseCategory",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "leaguedashptdefend"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "PerMode",
-      "Season",
-      "SeasonType",
-      "DefenseCategory"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "DefenseCategory",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "leaguedashptteamdefend"
   },
   {
-    "description": null,
     "params": [
-      "ClutchTime",
-      "AheadBehind",
-      "PointDiff",
-      "GameScope",
-      "PlayerExperience",
-      "PlayerPosition",
-      "StarterBench",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "ClutchTime",
+        "required": true
+      },
+      {
+        "name": "AheadBehind",
+        "required": true
+      },
+      {
+        "name": "PointDiff",
+        "required": true
+      },
+      {
+        "name": "GameScope",
+        "required": true
+      },
+      {
+        "name": "PlayerExperience",
+        "required": true
+      },
+      {
+        "name": "PlayerPosition",
+        "required": true
+      },
+      {
+        "name": "StarterBench",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "leaguedashteamclutch"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "PerMode",
-      "Season",
-      "SeasonType"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "leaguedashteamptshot"
   },
   {
-    "description": null,
     "params": [
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames",
-      "DistanceRange",
-      "GameScope",
-      "PlayerExperience",
-      "PlayerPosition",
-      "StarterBench"
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      },
+      {
+        "name": "DistanceRange",
+        "required": true
+      },
+      {
+        "name": "GameScope",
+        "required": true
+      },
+      {
+        "name": "PlayerExperience",
+        "required": true
+      },
+      {
+        "name": "PlayerPosition",
+        "required": true
+      },
+      {
+        "name": "StarterBench",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "leaguedashteamshotlocations"
   },
   {
-    "description": null,
     "params": [
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "leaguedashteamstats"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "PerMode",
-      "StatCategory",
-      "Season",
-      "SeasonType",
-      "Scope"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "StatCategory",
+        "required": false
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "Scope",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "leagueleaders"
   },
   {
-    "description": null,
     "params": [
-      "GameID",
-      "StartPeriod",
-      "EndPeriod"
+      {
+        "name": "GameID",
+        "required": true
+      },
+      {
+        "name": "StartPeriod",
+        "required": true
+      },
+      {
+        "name": "EndPeriod",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playbyplay"
   },
   {
-    "description": null,
     "params": [
-      "GameID",
-      "StartPeriod",
-      "EndPeriod"
+      {
+        "name": "GameID",
+        "required": true
+      },
+      {
+        "name": "StartPeriod",
+        "required": true
+      },
+      {
+        "name": "EndPeriod",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playbyplayv2"
   },
   {
-    "description": null,
     "params": [
-      "PerMode",
-      "PlayerID"
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlayerID",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playercareerstats"
   },
   {
-    "description": null,
     "params": [
-      "PlayerIDList",
-      "VsPlayerIDList",
-      "SeasonType",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "PlayerIDList",
+        "required": true
+      },
+      {
+        "name": "VsPlayerIDList",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playercompare"
   },
   {
-    "description": null,
     "params": [
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "PlayerID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "PlayerID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playerdashboardbyclutch"
   },
   {
-    "description": null,
     "params": [
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "PlayerID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "PlayerID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playerdashboardbygamesplits"
   },
   {
-    "description": null,
     "params": [
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "PlayerID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "PlayerID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playerdashboardbygeneralsplits"
   },
   {
-    "description": null,
     "params": [
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "PlayerID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "PlayerID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playerdashboardbylastngames"
   },
   {
-    "description": null,
     "params": [
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "PlayerID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "PlayerID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playerdashboardbyopponent"
   },
   {
-    "description": null,
     "params": [
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "PlayerID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "PlayerID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playerdashboardbyshootingsplits"
   },
   {
-    "description": null,
     "params": [
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "PlayerID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "PlayerID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playerdashboardbyteamperformance"
   },
   {
-    "description": null,
     "params": [
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "PlayerID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "PlayerID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playerdashboardbyyearoveryear"
   },
   {
-    "description": null,
     "params": [
-      "PerMode",
-      "Season",
-      "SeasonType",
-      "PlayerID",
-      "TeamID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "LastNGames"
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "PlayerID",
+        "required": true
+      },
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playerdashptpass"
   },
   {
-    "description": null,
     "params": [
-      "PerMode",
-      "Season",
-      "SeasonType",
-      "PlayerID",
-      "TeamID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "PlayerID",
+        "required": true
+      },
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playerdashptreb"
   },
   {
-    "description": null,
     "params": [
-      "Season",
-      "SeasonType",
-      "PlayerID",
-      "TeamID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "Season",
+        "required": false
+      },
+      {
+        "name": "SeasonType",
+        "required": false
+      },
+      {
+        "name": "PlayerID",
+        "required": false
+      },
+      {
+        "name": "TeamID",
+        "required": false
+      },
+      {
+        "name": "Outcome",
+        "required": false
+      },
+      {
+        "name": "Location",
+        "required": false
+      },
+      {
+        "name": "Month",
+        "required": false
+      },
+      {
+        "name": "SeasonSegment",
+        "required": false
+      },
+      {
+        "name": "DateFrom",
+        "required": false
+      },
+      {
+        "name": "DateTo",
+        "required": false
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": false
+      },
+      {
+        "name": "VsConference",
+        "required": false
+      },
+      {
+        "name": "VsDivision",
+        "required": false
+      },
+      {
+        "name": "GameSegment",
+        "required": false
+      },
+      {
+        "name": "Period",
+        "required": false
+      },
+      {
+        "name": "LastNGames",
+        "required": false
+      }
     ],
+    "description": null,
+    "active": false,
     "endpoint": "playerdashptreboundlogs"
   },
   {
-    "description": null,
     "params": [
-      "PerMode",
-      "Season",
-      "SeasonType",
-      "PlayerID",
-      "TeamID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "PlayerID",
+        "required": true
+      },
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playerdashptshotdefend"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "Season",
-      "SeasonType",
-      "PlayerID",
-      "TeamID"
+      {
+        "name": "LeagueID",
+        "required": false
+      },
+      {
+        "name": "Season",
+        "required": false
+      },
+      {
+        "name": "SeasonType",
+        "required": false
+      },
+      {
+        "name": "PlayerID",
+        "required": false
+      },
+      {
+        "name": "TeamID",
+        "required": false
+      }
     ],
+    "description": null,
+    "active": false,
     "endpoint": "playerdashptshotlog"
   },
   {
-    "description": null,
     "params": [
-      "PerMode",
-      "Season",
-      "SeasonType",
-      "PlayerID",
-      "TeamID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "PlayerID",
+        "required": true
+      },
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playerdashptshots"
   },
   {
-    "description": null,
     "params": [
-      "PlayerID",
-      "Season",
-      "SeasonType"
+      {
+        "name": "PlayerID",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playergamelog"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "PlayerID",
-      "Season",
-      "SeasonType",
-      "GraphStartSeason",
-      "GraphEndSeason",
-      "GraphStat"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "PlayerID",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "GraphStartSeason",
+        "required": true
+      },
+      {
+        "name": "GraphEndSeason",
+        "required": true
+      },
+      {
+        "name": "GraphStat",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playerprofile"
   },
   {
-    "description": null,
     "params": [
-      "PerMode",
-      "PlayerID"
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlayerID",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playerprofilev2"
   },
   {
-    "description": null,
     "params": [
-      "PlayerTeamID",
-      "PlayerID1",
-      "PlayerID2",
-      "PlayerID3",
-      "PlayerID4",
-      "PlayerID5",
-      "VsTeamID",
-      "VsPlayerID1",
-      "VsPlayerID2",
-      "VsPlayerID3",
-      "VsPlayerID4",
-      "VsPlayerID5",
-      "SeasonType",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "PlayerTeamID",
+        "required": true
+      },
+      {
+        "name": "PlayerID1",
+        "required": true
+      },
+      {
+        "name": "PlayerID2",
+        "required": true
+      },
+      {
+        "name": "PlayerID3",
+        "required": true
+      },
+      {
+        "name": "PlayerID4",
+        "required": true
+      },
+      {
+        "name": "PlayerID5",
+        "required": true
+      },
+      {
+        "name": "VsTeamID",
+        "required": true
+      },
+      {
+        "name": "VsPlayerID1",
+        "required": true
+      },
+      {
+        "name": "VsPlayerID2",
+        "required": true
+      },
+      {
+        "name": "VsPlayerID3",
+        "required": true
+      },
+      {
+        "name": "VsPlayerID4",
+        "required": true
+      },
+      {
+        "name": "VsPlayerID5",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playersvsplayers"
   },
   {
-    "description": null,
     "params": [
-      "PlayerID",
-      "VsPlayerID",
-      "SeasonType",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "PlayerID",
+        "required": true
+      },
+      {
+        "name": "VsPlayerID",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playervsplayer"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "SeasonID"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "SeasonID",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "playoffpicture"
   },
   {
-    "description": null,
     "params": [
-      "GameDate",
-      "LeagueID",
-      "DayOffset"
+      {
+        "name": "GameDate",
+        "required": true
+      },
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "DayOffset",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "scoreboard"
   },
   {
-    "description": null,
     "params": [
-      "GameDate",
-      "LeagueID",
-      "DayOffset"
+      {
+        "name": "GameDate",
+        "required": true
+      },
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "DayOffset",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "scoreboardV2"
   },
   {
-    "description": null,
     "params": [
-      "SeasonType",
-      "TeamID",
-      "PlayerID",
-      "GameID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "Position",
-      "RookieYear",
-      "GameSegment",
-      "Period",
-      "LastNGames",
-      "ContextMeasure"
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "PlayerID",
+        "required": true
+      },
+      {
+        "name": "GameID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "Position",
+        "required": true
+      },
+      {
+        "name": "RookieYear",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      },
+      {
+        "name": "ContextMeasure",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "shotchartdetail"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "Season",
-      "SeasonType",
-      "TeamID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames",
-      "GameID",
-      "GROUP_ID",
-      "ContextMeasure",
-      "ContextFilter"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      },
+      {
+        "name": "GameID",
+        "required": true
+      },
+      {
+        "name": "GROUP_ID",
+        "required": true
+      },
+      {
+        "name": "ContextMeasure",
+        "required": true
+      },
+      {
+        "name": "ContextFilter",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "shotchartlineupdetail"
   },
   {
-    "description": null,
     "params": [
-      "TeamID",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamdashboardbyclutch"
   },
   {
-    "description": null,
     "params": [
-      "TeamID",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamdashboardbygamesplits"
   },
   {
-    "description": null,
     "params": [
-      "SeasonType",
-      "TeamID",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamdashboardbygeneralsplits"
   },
   {
-    "description": null,
     "params": [
-      "TeamID",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamdashboardbylastngames"
   },
   {
-    "description": null,
     "params": [
-      "TeamID",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamdashboardbyopponent"
   },
   {
-    "description": null,
     "params": [
-      "TeamID",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamdashboardbyshootingsplits"
   },
   {
-    "description": null,
     "params": [
-      "TeamID",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamdashboardbyteamperformance"
   },
   {
-    "description": null,
     "params": [
-      "TeamID",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamdashboardbyyearoveryear"
   },
   {
-    "description": null,
     "params": [
-      "GroupQuantity",
-      "GameID",
-      "SeasonType",
-      "TeamID",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "GroupQuantity",
+        "required": true
+      },
+      {
+        "name": "GameID",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamdashlineups"
   },
   {
-    "description": null,
     "params": [
-      "PerMode",
-      "Season",
-      "SeasonType",
-      "TeamID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "LastNGames"
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamdashptpass"
   },
   {
-    "description": null,
     "params": [
-      "PerMode",
-      "Season",
-      "SeasonType",
-      "TeamID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamdashptreb"
   },
   {
-    "description": null,
     "params": [
-      "PerMode",
-      "Season",
-      "SeasonType",
-      "TeamID",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamdashptshots"
   },
   {
-    "description": null,
     "params": [
-      "TeamID",
-      "Season",
-      "SeasonType"
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamgamelog"
   },
   {
-    "description": null,
     "params": [
-      "Season",
-      "TeamID",
-      "LeagueID",
-      "SeasonType"
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teaminfocommon"
   },
   {
-    "description": null,
     "params": [
-      "SeasonType",
-      "TeamID",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamplayerdashboard"
   },
   {
-    "description": null,
     "params": [
-      "TeamID",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamplayeronoffdetails"
   },
   {
-    "description": null,
     "params": [
-      "TeamID",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "SeasonType",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamplayeronoffsummary"
   },
   {
-    "description": null,
     "params": [
-      "TeamID",
-      "VsPlayerID",
-      "SeasonType",
-      "MeasureType",
-      "PerMode",
-      "PlusMinus",
-      "PaceAdjust",
-      "Rank",
-      "Season",
-      "Outcome",
-      "Location",
-      "Month",
-      "SeasonSegment",
-      "DateFrom",
-      "DateTo",
-      "OpponentTeamID",
-      "VsConference",
-      "VsDivision",
-      "GameSegment",
-      "Period",
-      "LastNGames"
+      {
+        "name": "TeamID",
+        "required": true
+      },
+      {
+        "name": "VsPlayerID",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "MeasureType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "PlusMinus",
+        "required": true
+      },
+      {
+        "name": "PaceAdjust",
+        "required": true
+      },
+      {
+        "name": "Rank",
+        "required": true
+      },
+      {
+        "name": "Season",
+        "required": true
+      },
+      {
+        "name": "Outcome",
+        "required": true
+      },
+      {
+        "name": "Location",
+        "required": true
+      },
+      {
+        "name": "Month",
+        "required": true
+      },
+      {
+        "name": "SeasonSegment",
+        "required": true
+      },
+      {
+        "name": "DateFrom",
+        "required": true
+      },
+      {
+        "name": "DateTo",
+        "required": true
+      },
+      {
+        "name": "OpponentTeamID",
+        "required": true
+      },
+      {
+        "name": "VsConference",
+        "required": true
+      },
+      {
+        "name": "VsDivision",
+        "required": true
+      },
+      {
+        "name": "GameSegment",
+        "required": true
+      },
+      {
+        "name": "Period",
+        "required": true
+      },
+      {
+        "name": "LastNGames",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamvsplayer"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "SeasonType",
-      "PerMode",
-      "TeamID"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "SeasonType",
+        "required": true
+      },
+      {
+        "name": "PerMode",
+        "required": true
+      },
+      {
+        "name": "TeamID",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "teamyearbyyearstats"
   },
   {
-    "description": null,
     "params": [
-      "LeagueID",
-      "GameDate"
+      {
+        "name": "LeagueID",
+        "required": true
+      },
+      {
+        "name": "GameDate",
+        "required": true
+      }
     ],
+    "description": null,
+    "active": true,
     "endpoint": "videoStatus"
   }
 ]

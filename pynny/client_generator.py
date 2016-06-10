@@ -15,7 +15,7 @@ def _load_json(path):
         return json.load(f)
 
 
-def _generate_client(dir, templ, json):
+def _generate_client(dir, templ, json):  # TODO: fix template
     env = Environment(loader=FileSystemLoader(dir))
     return env.get_template(templ).render(endpoints=json)
 
