@@ -6,7 +6,11 @@ https://github.com/seemethere/nba_py/wiki/stats.nba.com-Endpoint-Documentation
 """
 
 import json
+import os
 
+
+THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+DOC_PATH = os.path.join(THIS_DIR, 'stats.nba.com-Endpoint-Documentation.md')
 
 # class Endpoint():
 
@@ -27,8 +31,8 @@ def parse_endpoint(block):
     return {"endpoint": name, "params": params, "description": None}
 
 
-def get_endpoints():
-    with open('../nba_py.wiki/stats.nba.com-Endpoint-Documentation.md', 'r') as f:
+def get_endpoints(path):
+    with open(path, 'r') as f:
         md = ''.join(f.read())
 
     endpoints = [parse_endpoint(block)
@@ -41,7 +45,7 @@ def get_endpoints():
 if __name__ == '__main__':
     #  create JSON in form
     #  {"endpoint": string, "params": [param1, param2], "description": string}
-    data = get_endpoints()
+    data = get_endpoints(DOC_PATH)
 
     with open('endpoints.json', 'w') as f:
         json.dump(data, f)

@@ -8,30 +8,23 @@ NEW_PATH = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), "stats_nba_swagger.json")
 
 
-def _load_json(path):
-    with open(path) as f:
-        return json.load(f)
-
-
-def _write_json(path, data):
-    with open(path, 'w') as f:
-        json.dump(data, f)
-    return None
-
-
 def _method_from_endpoint(path):
     return {
         "description": "",
         "produces": ["application/json", "text/html", "text/xml"],
         "responses": {
-            "200": {},
+            "200": {
+                "description": "200 OK"
+            },
             "400": {
                 "description": "Bad request - bad parameters"
             },
             "404": {
                 "description": "'No HTTP resource was found that matches the request URI' - possible deprecated endpoint"
             }
-        }
+        },
+        "deprecated": not path["active"],
+        "summary": "",
     }
 
 
@@ -51,12 +44,10 @@ def _convert_path(path):
     return {
         "get": _method_from_endpoint(path),
         "parameters": _params_from_endpoint(path["params"]),
-        "deprecated": not path["active"],
-        "summary": ""
     }
 
 
-def _swaggerify(old):
+def swaggerify(old):
     return {
         "swagger": "2.0",
         "info": {
@@ -76,6 +67,6 @@ def _swaggerify(old):
 
 if __name__ == '__main__':
     old = _load_json(OLD_PATH)
-    err = _write_json(NEW_PATH, _swaggerify(old))
+    err = _write_json(NEW_PATH, swaggerify(old))
     if err is None:
         print("json has been swaggerified")
