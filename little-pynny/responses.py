@@ -92,11 +92,10 @@ def add_param_descriptions(endpoint):
         BASE_URL.format(endpoint=endpoint["endpoint"]),
         headers=HEADERS,
         params={
-            param["name"]: "boobs"
+            param["name"]: "xxxx"
             for param in endpoint["params"]
         }
     )
-
 
 
 if __name__ == '__main__':

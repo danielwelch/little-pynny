@@ -5,20 +5,6 @@ Parse into JSON file.
 https://github.com/seemethere/nba_py/wiki/stats.nba.com-Endpoint-Documentation
 """
 
-import json
-import os
-
-
-THIS_DIR = os.path.dirname(os.path.abspath(__file__))
-DOC_PATH = os.path.join(THIS_DIR, 'stats.nba.com-Endpoint-Documentation.md')
-
-# class Endpoint():
-
-#     def __init__(self, endpoint):
-#         self.method = endpoint["method"]
-#         self.params = endpoint["params"]
-#         self.description = endpoint["description"]
-
 
 def parse_endpoint(block):
     name = block[0][3:-1]
@@ -40,12 +26,3 @@ def get_endpoints(path):
                  if block[0].startswith("##")]
 
     return endpoints
-
-
-if __name__ == '__main__':
-    #  create JSON in form
-    #  {"endpoint": string, "params": [param1, param2], "description": string}
-    data = get_endpoints(DOC_PATH)
-
-    with open('endpoints.json', 'w') as f:
-        json.dump(data, f)

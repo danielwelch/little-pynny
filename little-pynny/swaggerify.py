@@ -1,12 +1,3 @@
-import json
-import os
-
-
-OLD_PATH = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), "endpoints.json")
-NEW_PATH = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), "stats_nba_swagger.json")
-
 
 def _method_from_endpoint(path):
     return {
@@ -63,10 +54,3 @@ def swaggerify(old):
         },
         # "externalDocs": None,  # eventually replace with some sort of documentation
     }
-
-
-if __name__ == '__main__':
-    old = _load_json(OLD_PATH)
-    err = _write_json(NEW_PATH, swaggerify(old))
-    if err is None:
-        print("json has been swaggerified")

@@ -39,7 +39,7 @@ def main():
             headers=HEADERS
         )
         #  determine if each endpoint is active or not (no resource in API)
-        if r.text.startswith('{"Message"'):   # this works for checking endpoints
+        if r.text.startswith('{"Message"'):
             d["active"] = False
             continue
         else:
