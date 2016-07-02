@@ -35,10 +35,6 @@ def _write_json(path, data):
     return True
 
 
-def _endpoint_deprecated(endpoint):
-    pass
-
-
 def _handle_crap_params(endpoint):
     player_scope = {"name": "PlayerScope", "required": True}
     game_scope = {"name": "GameScope", "required": True}
@@ -75,7 +71,7 @@ def define_required_params(endpoint, response_phrases):
             required_params.append(param)
 
     for p in endpoint["params"]:
-        if p["name"] in required_params:  # TODO: deal with scope vs. playerscope vs. gamescope
+        if p["name"] in required_params:
             p["required"] = True
 
     crap = ("homepageleaders", "homepagev2", "leaderstiles")
